@@ -9,4 +9,13 @@ for i in range(2, 10):
     print(f"\n[{i}단]")
     for j in range(1, 10):  
         print(f"{i} × {j} = {i * j}")
-```
+```bash
+dan = int(input("출력할 구구단을 입력하세요 (3 이상의 숫자): "))
+
+# 입력값이 3 미만이면 오류 메시지 출력
+if dan < 3:
+    print("입력한 숫자가 3 미만입니다. 다시 입력하세요.")
+else:
+    print(f"\n[{dan}단]")
+    for i in range(1, 10):
+        print(f"{dan} × {i} = {dan * i}")
