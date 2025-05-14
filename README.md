@@ -2,7 +2,7 @@
 #### 마크다운 방법
 ### 구리고등학교
 ## 1학년
-![스크린샷 2025-04-02 155653](https://github.com/user-attachments/assets/6424c412-e33d-476a-9b0f-b979b6c7cbb1)
+![image](https://github.com/user-attachments/assets/43643746-a534-423b-9c87-2839c614bd34)
 1.구구단 만들기
 ```bash
 for i in range(2, 10):  
